@@ -72,10 +72,7 @@ void solveSudoku(std::vector<std::vector<char>>& board) {
 }
 
   int main() {
-  int n = 10000000;
-  bool rows[9][9] = {0};
-  bool cols[9][9] = {0};
-  bool squares[9][9] = {0};
+
   using std::chrono::duration;
   using std::chrono::duration_cast;
   using std::chrono::high_resolution_clock;
